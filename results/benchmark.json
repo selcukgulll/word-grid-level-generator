@@ -1,0 +1,75 @@
+{
+  "note": "Exploratory toy benchmark; results are not production performance guarantees.",
+  "seed_range": [
+    0,
+    19
+  ],
+  "results": [
+    {
+      "configuration": "turkish_3x4",
+      "board": "3x4",
+      "words": [
+        "AİLE",
+        "ELA",
+        "ARI"
+      ],
+      "seeds_tested": 20,
+      "layouts_found": 20,
+      "solved_fraction": 1.0,
+      "median_nodes_on_success": 4.0,
+      "median_compactness_on_success": 0.6667,
+      "median_intersections_on_success": 2.0,
+      "max_nodes_per_trial": 20000
+    },
+    {
+      "configuration": "short_words_7x7",
+      "board": "7x7",
+      "words": [
+        "CAT",
+        "ART",
+        "TAR"
+      ],
+      "seeds_tested": 20,
+      "layouts_found": 20,
+      "solved_fraction": 1.0,
+      "median_nodes_on_success": 3.0,
+      "median_compactness_on_success": 0.5833,
+      "median_intersections_on_success": 2.0,
+      "max_nodes_per_trial": 20000
+    },
+    {
+      "configuration": "mobile_theme_10x10",
+      "board": "10x10",
+      "words": [
+        "CODE",
+        "DATA",
+        "GAME",
+        "MODEL"
+      ],
+      "seeds_tested": 20,
+      "layouts_found": 20,
+      "solved_fraction": 1.0,
+      "median_nodes_on_success": 8.0,
+      "median_compactness_on_success": 0.4,
+      "median_intersections_on_success": 3.0,
+      "max_nodes_per_trial": 20000
+    },
+    {
+      "configuration": "dense_6x6",
+      "board": "6x6",
+      "words": [
+        "CODE",
+        "DATA",
+        "GAME",
+        "MODEL"
+      ],
+      "seeds_tested": 20,
+      "layouts_found": 0,
+      "solved_fraction": 0.0,
+      "median_nodes_on_success": null,
+      "median_compactness_on_success": null,
+      "median_intersections_on_success": null,
+      "max_nodes_per_trial": 20000
+    }
+  ]
+}

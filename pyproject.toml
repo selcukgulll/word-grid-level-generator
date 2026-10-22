@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "word-grid-level-generator"
+version = "0.1.0"
+description = "Constraint-based procedural level generation for word puzzle games"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+wordgrid = "wordgrid.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

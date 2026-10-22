@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "coordinate_system": "zero-based row/column, top-left origin",
+  "levels": [
+    {
+      "seed": 42,
+      "rows": 3,
+      "cols": 4,
+      "grid": [
+        [
+          "A",
+          "İ",
+          "L",
+          "E"
+        ],
+        [
+          "R",
+          null,
+          null,
+          "L"
+        ],
+        [
+          "I",
+          null,
+          null,
+          "A"
+        ]
+      ],
+      "placements": [
+        {
+          "word": "AİLE",
+          "row": 0,
+          "col": 0,
+          "orientation": "H"
+        },
+        {
+          "word": "ARI",
+          "row": 0,
+          "col": 0,
+          "orientation": "V"
+        },
+        {
+          "word": "ELA",
+          "row": 0,
+          "col": 3,
+          "orientation": "V"
+        }
+      ],
+      "metrics": {
+        "fill_ratio": 0.6667,
+        "compactness": 0.6667,
+        "intersection_count": 2,
+        "bounding_box_area": 12,
+        "nodes_visited": 4
+      }
+    }
+  ]
+}
